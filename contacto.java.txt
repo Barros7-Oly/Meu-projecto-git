@@ -2,13 +2,16 @@ public class Contato(String nome, String email, String telefone) {
     this.nome = nome;
     this.email = email;
     this.telefone = telefone;
+    this.telefone = idade;
 }
   public static void main(String[] args) {
     Contato contato1 = new Contato("Alice Silva", "alice.silva@email.com", "123-456-7890");
     System.out.println("Nome: " + contato1.getNome());
     System.out.println("Email: " + contato1.getEmail());
 }
-
+     public String getIdade() { // Novo método
+        return idade;
+    }
 *   Salve o arquivo.
 public class Contato {
     private String nome;
