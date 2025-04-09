@@ -29,3 +29,13 @@ public class Contato {
         System.out.println("Email: " + contato1.getEmail());
     }
 }
+        public static void main(String[] args) {
+            Contato contato1 = new Contato("Alice Silva", "alice.silva@email.com", "123-456-7890"); // Modificado
+            System.out.println("Nome: " + contato1.getNome());
+            System.out.println("Email: " + contato1.getEmail());
+            System.out.println("Telefone: " + contato1.getTelefone()); // Novo
+        }
+    }
+    ```
+
+*   Salve o arquivo.
