@@ -19,6 +19,13 @@ public class Contato {
     private String endereco; // Novo campo
 
 public static void main(String[] args) {
+    Contato contato1 = new Contato("Alice Silva", "alice@email.com");
+    System.out.println("Nome: " + contato1.getNome());
+    System.out.println("Email: " + contato1.getEmail());
+    System.out.println("Idade: " + contato1.getIdade()); // Nova linha
+}
+
+public static void main(String[] args) {
     Contato contato1 = new Contato("Alice Silva", "alice.silva@email.com", "Rua das Flores, 123");
     System.out.println("Nome: " + contato1.getNome());
     System.out.println("Email: " + contato1.getEmail());
