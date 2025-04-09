@@ -1,4 +1,4 @@
-ppublic Contato(String nome, String email, String telefone) {
+public class Contatos (String nome, String email, String telefone) {
     this.nome = nome;
     this.email = email;
     this.telefone = telefone;
