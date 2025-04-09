@@ -39,3 +39,17 @@ public class Contato {
     ```
 
 *   Salve o arquivo.
+public class Contato {
+    private String nome;
+    private String email;
+    private String endereco; // Novo campo
+
+    public Contato(String nome, String email, String endereco) { // Modificado
+        this.nome = nome;
+        this.emailpublic static void main(String[] args) {
+        Contato contato1 = new Contato("Alice Silva", "alice.silva@email.com", "Rua das Flores, 123"); // Modificado
+        System.out.println("Nome: " + contato1.getNome());
+        System.out.println("Email: " + contato1.getEmail());
+        System.out.println("Endereço: " + contato1.getEndereco()); // Novo
+    }
+}
